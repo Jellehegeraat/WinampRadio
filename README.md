@@ -1,10 +1,19 @@
 # WinampRadio
 
-One Paragraph of project description goes here
+WinampRadio is an application
 
 ## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine. 
+* Download Github files.
+* Install Node.js.
+* Install node modules using the next steps.
+  * Open Cmd.exe
+  * go to the src map
+  * use the next code
+``` 
+  npm install
+```
+* 
 
 ### Prerequisites
 

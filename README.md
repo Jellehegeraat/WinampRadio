@@ -1,6 +1,6 @@
 # WinampRadio
 
-
+ v1.0.0
 
 WinampRadio is an application
 

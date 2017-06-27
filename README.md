@@ -1,8 +1,6 @@
 # WinampRadio
 
- v1.0.0
-
-WinampRadio is an application
+WinampRadio is an application......
 
 
 
@@ -14,21 +12,31 @@ These instructions will get you a copy of the project up and running on your loc
 
 * Install Node.js.
 
+* Install Winamp
+
 * Install node modules using the next steps.
   
 * Open Cmd.exe
   
-* go to the src map
+* Go to the src map
   
-* use the next code
+* Use the next code
 
 ```
 	npm install
-
 ```
 
-* 
+* After this step it is time to run the program.
 
+* open up node.js cmd
+
+* Go to the src map
+
+* Use the next code
+```
+	node app.js
+```
+* if everything is correct it will start Winamp with an random Radiostation
 
 
 ### Prerequisites

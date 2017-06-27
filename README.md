@@ -39,19 +39,6 @@ These instructions will get you a copy of the project up and running on your loc
 * if everything is correct it will start Winamp with an random Radiostation
 
 
-### Prerequisites
-
-
-What things you need to install the software and how to install them
-
-
-```
-
-Give examples
-
-```
-
-
 ### Installing
 
 
@@ -86,8 +73,19 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+* First install node, Winamp and download the zip file
 
+* unpack the zip
+
+* open up node.js cmd
+
+* Go to the src map
+
+* Use the next code
+```
+	node app.js
+```
+* if everything is correct it will start Winamp with an random Radiostation
 
 
 ### Break down into end to end tests

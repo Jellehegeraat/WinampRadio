@@ -1,1 +1,35 @@
-a
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Winamp Radio</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+   <div id="test">
+        <button id="nextStation">Next random</button>
+        <button id="volUp">Vol Up</button>
+        <button id="volDown">Vol Down</button>
+    </div>
+</body>
+</html>
+
+
+
+
+<script>
+document.getElementById("nextStation").addEventListener("click", nextStation);
+document.getElementById("volUp").addEventListener("click", volUp);
+document.getElementById("volDown").addEventListener("click", volDown);
+
+function nextStation() {
+    window.open('./index.css');
+    document.getElementById("nextStation").innerHTML = " NEXT STATION ";
+}
+function volUp() {
+    document.getElementById("volUp").innerHTML = " VOL UP ";
+}
+function volDown() {
+    document.getElementById("volDown").innerHTML = " VOL DOWN ";
+}
+</script>

@@ -67,13 +67,12 @@ module.exports = function Webbrowser(logfile, station, winamp) {
 
 	function doNextStation() {
 		console.log("next");
+
 	}
 
 	function doVolumeUp() {
 				console.log("up");
-
-		_winamp.sendCommand("up");
-		
+		_winamp.sendCommand("40058");
 	}
 
 	function doVolumeDown() {

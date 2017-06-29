@@ -6,14 +6,20 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-   <div id="buttons">
+   <div id="buttons" align="center">
 		<button onclick="window.location.href='/next-track'">Next Random</button>
 		<button onclick="window.location.href='/vol-down'">Vol down</button>
 		<button onclick="window.location.href='/vol-up'">Vol up</button>
     </div>
+	<h3 align="center">Liever zelf een radio zender uitkiezen?</h3>
+	<div id="select-style" align="center">
+	<select id="stations" onchange="window.location.href='/goto?id='+document.getElementById('stations').value">
+		<!--stationlistOptions-->
+	</select>
+	</div>
 </body>
 </html>
 
-
-
-
+<script>
+	
+</script>

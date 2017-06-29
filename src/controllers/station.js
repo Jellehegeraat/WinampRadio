@@ -8,6 +8,7 @@ module.exports = function StationController(logfile, winamp) {
 	var	_start = 0,
 		_last = 0,
 		_random = 0,
+		_nowPlayingUrl = 0,
 		_logfile = logfile, 
 		_winamp = winamp;
 		
@@ -17,24 +18,20 @@ module.exports = function StationController(logfile, winamp) {
 	
 	/**
      * Play next random station in agenda.
-     * @param request
-     * @param response
      */
-    this.playNextStation = function() {
-		var stationId = _getNextStationId();
+    this.playNextStation = function(stationId) {
+		if (!stationId) stationId = _getNextStationId();
 		var station = _broadcastlist.getById(stationId);
 		var calc = _this.getLastCalculation();
-
 		_logfile.addToLogFile(station, calc);
-
+	
 		_winamp.playUrl(station.url);
+		_nowPlayingUrl = station.url;
 		return station;
 	};
 	
 	/**
      * Gets last calculation information.
-     * @param request
-     * @param response
      */
     this.getLastCalculation = function() {
 		return {
@@ -44,6 +41,13 @@ module.exports = function StationController(logfile, winamp) {
 		};
 	};
 
+	/**
+     * Gets last calculation information.
+     */
+    this.stationListHtmlOptions = function() {
+		return _broadcastlist.stationListHtmlOptions(_nowPlayingUrl);
+	};
+	
 	
 	// =====================================================================
 	// p r i v a t e

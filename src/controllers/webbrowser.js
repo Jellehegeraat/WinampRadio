@@ -39,6 +39,12 @@ module.exports = function Webbrowser(logfile, station, winamp) {
 		{
 			url = '/index.html';
 		}
+		if (String(url).substr(0,9) == "/goto?id=")
+		{
+			var arr = url.split('=');
+			nextChosenStation(parseInt(arr[1]));
+			url = '/index.html';
+		}
 		
 		_fs.stat('html' + url, function(err, stat) {
 			if(err) {
@@ -58,26 +64,31 @@ module.exports = function Webbrowser(logfile, station, winamp) {
 			} else {
 				const ext = _path.parse(url).ext;
 				response.statusCode = 200;
-				//response.write(data);
 				response.setHeader('Content-type', mimeType[ext] || 'text/plain' );
-				response.end(data);
+				
+				response.end(parseStaticPage(data));
 			}
 		});
 	}
 
+	function parseStaticPage(data) {
+		data = String(data).replace("<!--stationlistOptions-->", _station.stationListHtmlOptions());
+		return data;
+	}
+	
+	function nextChosenStation(stationId) {
+		_station.playNextStation(stationId);		
+	}
 	function doNextStation() {
-		console.log("next");
-
+		_station.playNextStation();
 	}
 
 	function doVolumeUp() {
-				console.log("up");
-		_winamp.sendCommand("40058");
+		_winamp.volumeUp();
 	}
 
 	function doVolumeDown() {
-				console.log("down");
-
+		_winamp.volumeDown();
 	}
 
 	const mimeType = {

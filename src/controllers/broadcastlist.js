@@ -13,19 +13,30 @@ module.exports = function BroadcastListController() {
 		
     /**
      * Gets a single broadcast station by Id.
-     * @param request
-     * @param response
+     * @param id
      */
     this.getById = function(id) {
         //if (!_.isInteger(id)) {
         //    console.log("Id isn't an interger value.")
         //    return;
         //}
-
 		return _broadcastList[id];
-
     };
-
+	
+    /**
+     * Gets a single broadcast station by Id.
+     */
+	this.stationListHtmlOptions = function (selected){
+		var result = "";
+		var previousUrl = "";
+		_.each(_broadcastList, function (item, id){
+			optionSelected = (selected == item.url) ? " selected" : "";
+			if (previousUrl != item.url) result += '<option value="' + id + '"' + optionSelected + '>' + item.stationName + '</option>';
+			previousUrl = item.url;
+		});
+		return result;
+	};
+	
     /**
      * Initialized broadcastlist.
      * @param request
@@ -159,6 +170,6 @@ module.exports = function BroadcastListController() {
 		}
 		]
     };
-
+ 
     return this;
 };

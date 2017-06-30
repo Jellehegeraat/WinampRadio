@@ -36,7 +36,7 @@ These instructions will get you a copy of the project up and running on your loc
 ```
 	node app.js
 ```
-* if everything is correct it will start Winamp with an random Radiostation
+* if everything is correct it will start Winamp with an random Radiostation.
 
 
 ### Installing
@@ -86,6 +86,15 @@ End with an example of getting some data out of the system or using it for a lit
 	node app.js
 ```
 * if everything is correct it will start Winamp with an random Radiostation
+
+## Changing Winamp Using Webbrowser
+
+* The webapp is located at: localhost:4422.
+
+* Here u can change the Volume, Next random or choose the radio u want to lissen to.
+
+* there is also an Settings button where u can change the Winamp location on ur pc or u can change the refresh time between radio stations.
+
 
 
 ### Break down into end to end tests

@@ -82,8 +82,9 @@ These instructions will get you a copy of the project up and running on your loc
 * There are 2 things u can change here:
 
 	* Here u can change the refresh timer, the number is in miliseconds so for everysecond it is 1000.
-		* For example 1 hour is 3 600 000.
-		* And for 2 hours it is 7 200 000
+		* examples 
+		* For1 hour is 3 600 000.
+		* For 2 hours it is 7 200 000
 	* Or u can change the Winamp location
 
 ### And coding style tests

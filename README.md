@@ -82,11 +82,9 @@ These instructions will get you a copy of the project up and running on your loc
 * There are 2 things u can change here:
 
 	* Here u can change the refresh timer, the number is in miliseconds so for everysecond it is 1000.
-		* for example  
-		1 hour = 3 600 000
-		2 hours = 7 200 000
+		* For example 1 hour is 3 600 000.
+		* And for 2 hours it is 7 200 000
 	* Or u can change the Winamp location
-
 
 ### And coding style tests
 
@@ -100,62 +98,44 @@ Give an example
 ```
 
 
-## Deployment
+## Adding your own Radiostations.
 
+If you want to add Radiostations there are a few things u need to do.
 
+* First navigate to the Broadcastlist inside the src map.
 
-Add additional notes about how to deploy this on a live system
+* Open Broadcastlist.
 
+* If u have a new Radiostation u can add it to the list using this code
 
+```
+{
+			stationName: " enter station name here ",
+			url: " enter station url here "
+		},
+```
+* Save the file.
 
+* Open Station.js.
+
+* If u have added a Radiostation. 
+
+* Change the number on line 58 to
+	* If u added 1 radiostation u need to add 1. 
+	* If u added 2 radiostations u need to add 2.
+	
 ## Built With
 
+* [Node.js](https://nodejs.org/en/)
 
+* [Winamp](http://www.winamp.com/index.html)
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-
-* [Maven](https://maven.apache.org/) - Dependency Management
-
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-
-
-## Contributing
-
-
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-
-
-## Versioning
-
-
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [Java](https://www.javascript.com/)
 
 
 
 ## Authors
 
+* **Jelle Hegeraat** - *Initial work* - [Jelle Hegeraat](https://github.com/Jellehegeraat)
 
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-
-
-* Hat tip to anyone who's code was used
-
-* Inspiration
-
-* etc

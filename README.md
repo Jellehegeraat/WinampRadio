@@ -4,21 +4,31 @@ WinampRadio is an application......
 
 
 
-## Getting Started
+## Getting Started / Installing
 
 These instructions will get you a copy of the project up and running on your local machine. 
-
-* Download Github files.
 
 * Install Node.js.
 
 * Install Winamp
 
+* Make an winamp-radio folder
+
+* Open node.js cmd
+
+* Navigate to the winamp-radio folder
+
+* Use the next code
+```
+	git pull https://github.com/Jellehegeraat/WinampRadio
+```
+* Now we're gonna install all the modules. 
+
 * Install node modules using the next steps.
   
 * Open Cmd.exe
   
-* Go to the src map
+* Navigate to the src map
   
 * Use the next code
 
@@ -30,7 +40,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 * open up node.js cmd
 
-* Go to the src map
+* Navigate to the src map
 
 * Use the next code
 ```
@@ -38,46 +48,11 @@ These instructions will get you a copy of the project up and running on your loc
 ```
 * if everything is correct it will start Winamp with an random Radiostation.
 
-
-### Installing
-
-
-A step by step series of examples that tell you have to get a development env running
-
-
-
-Say what the step will be
-
-
-
-```
-
-Give the example
-
-```
-
-
-And repeat
-
-
-```
-
-until finished
-
-```
-
-
-End with an example of getting some data out of the system or using it for a little demo
-
-
-
 ## Running the tests
 
-* First install node, Winamp and download the zip file
+* This only works if u Installed everything properly
 
-* unpack the zip
-
-* open up node.js cmd
+* Open up node.js cmd
 
 * Go to the src map
 
@@ -86,6 +61,7 @@ End with an example of getting some data out of the system or using it for a lit
 	node app.js
 ```
 * if everything is correct it will start Winamp with an random Radiostation
+
 
 ## Changing Winamp Using Webbrowser
 
@@ -97,16 +73,16 @@ End with an example of getting some data out of the system or using it for a lit
 
 
 
-### Break down into end to end tests
+## Changing timers/ Winamp folder
 
-Explain what these tests test and why
+* Navigate to the winamp-folder on ur pc
 
+* Open the config.js file
 
-```
+* There are 2 things u can change here:
 
-Give an example
-
-```
+	* Here u can change the refresh timer, the number is in miliseconds so for everysecond it is 1000.
+	* Or u can change the Winamp location
 
 
 ### And coding style tests

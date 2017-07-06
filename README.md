@@ -120,10 +120,13 @@ If you want to add Radiostations there are a few things u need to do.
 
 * If u have added a Radiostation. 
 
-* Change the number on line 58 to
+* Change the number on line 58 to.
 	* If u added 1 radiostation u need to add 1. 
 	* If u added 2 radiostations u need to add 2.
-	
+
+* change the number on line 61 to.
+	* If u added 1 radiostation u need to add 1. 
+	* If u added 2 radiostations u need to add 2.
 ## Built With
 
 * [Node.js](https://nodejs.org/en/)

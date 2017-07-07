@@ -38,7 +38,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 * After this step it is time to run the program.
 
-* open up node.js cmd
+* Open up node.js cmd
 
 * Navigate to the src map
 
@@ -46,7 +46,7 @@ These instructions will get you a copy of the project up and running on your loc
 ```
 	node app.js
 ```
-* if everything is correct it will start Winamp with an random Radiostation.
+* If everything is correct it will start Winamp with an random Radiostation.
 
 ## Running the tests
 
@@ -60,7 +60,7 @@ These instructions will get you a copy of the project up and running on your loc
 ```
 	node app.js
 ```
-* if everything is correct it will start Winamp with an random Radiostation
+* If everything is correct it will start Winamp with an random Radiostation
 
 
 ## Changing Winamp Using Webbrowser
@@ -69,7 +69,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 * Here u can change the Volume, Next random or choose the radio u want to lissen to.
 
-* there is also an Settings button where u can change the Winamp location on ur pc or u can change the refresh time between radio stations.
+* There is also an Settings button where u can change the Winamp location on ur pc or u can change the refresh time between radio stations.
 
 
 
@@ -125,7 +125,7 @@ If you want to add Radiostations there are a few things u need to do.
 	* If u added 1 radiostation u need to add 1. 
 	* If u added 2 radiostations u need to add 2.
 
-* change the number on line 61 to.
+* Change the number on line 61 to.
 	* If u added 1 radiostation u need to add 1. 
 	* If u added 2 radiostations u need to add 2.
 ## Built With

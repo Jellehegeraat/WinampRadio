@@ -29,6 +29,11 @@ module.exports = function Webbrowser(logfile, station, winamp) {
 			doVolumeUp();
 			url = '/index.html';
 		}
+		if(url == '/time-out')
+		{
+			doTimeout();
+			url = '/index.html';
+		}
 		if (url == '/vol-down')
 		{
 			doVolumeDown();
@@ -87,6 +92,10 @@ module.exports = function Webbrowser(logfile, station, winamp) {
 		_winamp.volumeUp();
 	}
 
+	function doTimeout() {
+		_winamp.Timeout();
+	}
+	
 	function doVolumeDown() {
 		_winamp.volumeDown();
 	}

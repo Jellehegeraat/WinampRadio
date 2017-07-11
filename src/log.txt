@@ -124,3 +124,7 @@
 2017-07-11 10:10:36	1	29	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
 2017-07-11 10:10:43	1	29	2	arrow classic	http://91.221.151.155:80/;?.mp3
 2017-07-11 10:10:50	1	29	2	omroep brabant	http://live.icecast.kpnstreaming.nl/omroepbrabantlive-OmroepBrabantHq.m3u
+2017-07-11 10:25:20	1	29	15	Studio brussel	http://mp3.streampower.be/stubru-high.mp3
+2017-07-11 10:28:38	1	29	27	slam non stop	http://stream.radiocorp.nl/web10_mp3
+2017-07-11 10:28:46	1	29	9	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-07-11 10:29:06	1	29	25	538 party	http://vip-icecast.538.lw.triple-it.nl/WEB16_MP3

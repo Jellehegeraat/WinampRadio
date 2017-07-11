@@ -1,7 +1,7 @@
 module.exports = {
 
     player : {
-        newStationTimeout: '100000',             
+        newStationTimeoutMinutes: 1,             
 		winampLocation: '"C:\\Program Files (x86)\\winamp\\winamp.exe"',
     }
 };

@@ -12,15 +12,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 * Install Winamp
 
-* Make an winamp-radio folder
+* Make an nodejs folder
 
 * Open node.js cmd
 
-* Navigate to the winamp-radio folder
+* Navigate to the nodejs folder
 
 * Use the next code
 ```
-	git pull https://github.com/Jellehegeraat/WinampRadio
+	git clone https://github.com/Jellehegeraat/WinampRadio
 ```
 * Now we're gonna install all the modules. 
 
@@ -81,10 +81,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 * There are 2 things u can change here:
 
-	* Here u can change the refresh timer, the number is in miliseconds so for everysecond it is 1000.
-		* examples 
-		* For 1 hour  it is 3 600 000.
-		* For 2 hours it is 7 200 000.
+	* Here u can change the refresh timer, the number is in minutes.
 	* Or u can change the Winamp location
 
 ### And coding style tests

@@ -19,7 +19,12 @@ module.exports = function Winamp(logfile, config) {
 
     this.setVolume = function(volume) {
 		// Hier testen of volume geldig getal is!!
+		_volume = volume;
 		setCommand ("/VOL="+volume);
+	};
+	
+	this.getVolume = function() {
+		return _volume;
 	};
 	
     this.volumeUp = function() {
@@ -38,21 +43,7 @@ module.exports = function Winamp(logfile, config) {
 		setCommand ("/VOL=" + _volume);
 	};
 	
-	this.Timeout = function() {
-		_volume = 0;
-				/*while (_volume < 80) {
-					_volume = _volume + 5;
-					setCommand ("/VOL=" + _volume);
-				};*/
-		for(var timer = 0; timer < 16; timer++) {
-			(function(i){
-				setTimeout(function(){
-				_volume = _volume + 5;
-				setCommand ("/VOL=" + _volume);
-				}, 3000 * i)
-			})(timer);
-		}
-	};
+
 
 	function setCommand (command) {
 		var cmd = _winampLocation + ' ' + command;

@@ -131,3 +131,102 @@
 2017-07-11 10:31:18	1	29	19	fresh fm	http://www.fresh.fm/media/audio/FreshFM.asx
 2017-07-11 10:31:25	1	29	18	grandprix	http://grandprixradio2.live-streams.nl:80/live.m3u
 2017-07-11 11:13:26	1	29	18	grandprix	http://grandprixradio2.live-streams.nl:80/live.m3u
+2017-07-11 11:17:00	1	29	14	Sky 90s	http://www.skyradio.nl/player/skyradio-90s.pls
+2017-07-11 11:17:11	1	29	14	Radio 2	http://icecast.omroep.nl/radio2-bb-mp3
+2017-07-11 11:18:00	1	29	21	veronica top 1000	http://18943.live.streamtheworld.com:80/SRGSTR10_SC
+2017-07-11 11:19:00	1	29	21	veronica top 1000	http://18943.live.streamtheworld.com:80/SRGSTR10_SC
+2017-07-11 11:20:25	1	29	4	Keizerstad FM	http://server-06.stream-server.nl:8800/listen.pls
+2017-07-11 11:21:25	1	29	1	Oldiesradio	http://stream.intronic.nl/rgrfm_oldiesradio
+2017-07-11 11:21:51	1	29	5	Radio 2	http://icecast.omroep.nl/radio2-bb-mp3
+2017-07-11 11:22:17	1	29	21	veronica top 1000	http://18943.live.streamtheworld.com:80/SRGSTR10_SC
+2017-07-11 11:23:17	1	29	16	3fm alt	http://icecast.omroep.nl/3fm-alternative-mp3
+2017-07-11 11:24:04	1	29	4	Keizerstad FM	http://server-06.stream-server.nl:8800/listen.pls
+2017-07-11 11:25:04	1	29	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-07-11 11:26:04	1	29	18	grandprix	http://grandprixradio2.live-streams.nl:80/live.m3u
+2017-07-11 11:27:04	1	29	7	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-07-11 11:28:04	1	29	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-07-11 11:29:04	1	29	12	538	http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
+2017-07-11 11:30:04	1	29	7	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-07-11 11:31:04	1	29	5	Radio 2	http://icecast.omroep.nl/radio2-bb-mp3
+2017-07-11 11:32:04	1	29	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-07-11 11:33:04	1	29	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-07-11 11:34:04	1	29	17	Skyradio	http://provisioning.streamtheworld.com/pls/skyradio.pls
+2017-07-11 11:35:04	1	29	13	538	http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
+2017-07-11 11:36:04	1	29	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-07-11 11:37:04	1	29	3	omroep brabant	http://live.icecast.kpnstreaming.nl/omroepbrabantlive-OmroepBrabantHq.m3u
+2017-07-11 11:38:04	1	29	26	RGR Fm	http://stream.intronic.nl/rgrfm
+2017-07-11 11:39:04	1	29	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-07-11 11:40:04	1	29	4	Keizerstad FM	http://server-06.stream-server.nl:8800/listen.pls
+2017-07-11 11:40:35	1	29	22	funx	http://icecast.omroep.nl/funx-bb-mp3
+2017-07-11 11:41:26	1	29	17	Skyradio	http://provisioning.streamtheworld.com/pls/skyradio.pls
+2017-07-11 11:42:03	1	29	8	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-07-11 11:42:23	1	29	20	keizerstad 80's	http://server-06.stream-server.nl:8800/;stream.mp3
+2017-07-11 11:42:59	1	29	3	omroep brabant	http://live.icecast.kpnstreaming.nl/omroepbrabantlive-OmroepBrabantHq.m3u
+2017-07-11 11:43:13	1	29	26	RGR Fm	http://stream.intronic.nl/rgrfm
+2017-07-11 11:43:52	1	29	9	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-07-11 11:45:33	1	29	18	grandprix	http://grandprixradio2.live-streams.nl:80/live.m3u
+2017-07-11 11:45:38	1	29	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-07-11 11:45:57	1	29	20	keizerstad 80's	http://server-06.stream-server.nl:8800/;stream.mp3
+2017-07-11 11:46:09	1	29	3	omroep brabant	http://live.icecast.kpnstreaming.nl/omroepbrabantlive-OmroepBrabantHq.m3u
+2017-07-11 11:46:39	1	29	5	Radio 2	http://icecast.omroep.nl/radio2-bb-mp3
+2017-07-11 11:47:06	1	29	17	Skyradio	http://provisioning.streamtheworld.com/pls/skyradio.pls
+2017-07-11 11:47:28	1	29	17	Skyradio	http://provisioning.streamtheworld.com/pls/skyradio.pls
+2017-07-11 11:48:28	1	29	7	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-07-11 11:48:35	1	29	12	538	http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
+2017-07-11 11:49:22	1	29	17	Skyradio	http://provisioning.streamtheworld.com/pls/skyradio.pls
+2017-07-11 11:51:56	1	29	20	keizerstad 80's	http://server-06.stream-server.nl:8800/;stream.mp3
+2017-07-11 11:52:18	1	29	13	538	http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
+2017-07-11 11:53:00	1	29	4	Keizerstad FM	http://server-06.stream-server.nl:8800/listen.pls
+2017-07-11 11:53:12	1	29	9	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-07-11 11:53:30	1	29	8	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-07-11 11:53:43	1	29	16	3fm alt	http://icecast.omroep.nl/3fm-alternative-mp3
+2017-07-11 11:54:40	1	29	13	538	http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
+2017-07-11 11:55:49	1	29	13	538	http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
+2017-07-11 11:56:24	1	29	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-07-11 11:59:54	1	29	28	Deepfm	http://stream.deep.radio/hd
+2017-07-11 12:00:33	1	29	17	Skyradio	http://provisioning.streamtheworld.com/pls/skyradio.pls
+2017-07-11 12:01:33	1	29	27	slam non stop	http://stream.radiocorp.nl/web10_mp3
+2017-07-11 12:02:00	1	29	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-07-11 12:03:00	1	29	15	Studio brussel	http://mp3.streampower.be/stubru-high.mp3
+2017-07-11 12:03:04	1	29	4	Keizerstad FM	http://server-06.stream-server.nl:8800/listen.pls
+2017-07-11 12:03:30	1	29	15	Studio brussel	http://mp3.streampower.be/stubru-high.mp3
+2017-07-11 12:03:47	1	29	1	Oldiesradio	http://stream.intronic.nl/rgrfm_oldiesradio
+2017-07-11 12:04:03	1	29	8	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-07-11 12:04:54	1	29	16	3fm alt	http://icecast.omroep.nl/3fm-alternative-mp3
+2017-07-11 12:05:19	1	29	15	Studio brussel	http://mp3.streampower.be/stubru-high.mp3
+2017-07-11 12:06:00	1	29	25	538 party	http://vip-icecast.538.lw.triple-it.nl/WEB16_MP3
+2017-07-11 12:06:16	1	29	26	RGR Fm	http://stream.intronic.nl/rgrfm
+2017-07-11 12:06:53	1	29	2	arrow classic	http://91.221.151.155:80/;?.mp3
+2017-07-11 12:07:15	1	29	2	arrow classic	http://91.221.151.155:80/;?.mp3
+2017-07-11 12:07:45	1	29	17	Skyradio	http://provisioning.streamtheworld.com/pls/skyradio.pls
+2017-07-11 12:07:59	1	29	23	538 hitzone	http://vip-icecast.538.lw.triple-it.nl/WEB11_MP3
+2017-07-11 12:09:15	1	29	17	Skyradio	http://provisioning.streamtheworld.com/pls/skyradio.pls
+2017-07-11 12:09:58	1	29	25	538 party	http://vip-icecast.538.lw.triple-it.nl/WEB16_MP3
+2017-07-11 12:10:12	1	29	13	538	http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
+2017-07-11 12:11:14	1	29	13	538	http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
+2017-07-11 12:12:14	1	29	23	538 hitzone	http://vip-icecast.538.lw.triple-it.nl/WEB11_MP3
+2017-07-11 12:13:14	1	29	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-07-11 12:14:14	1	29	15	Studio brussel	http://mp3.streampower.be/stubru-high.mp3
+2017-07-11 12:15:14	1	29	17	Skyradio	http://provisioning.streamtheworld.com/pls/skyradio.pls
+2017-07-11 12:16:14	1	29	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-07-11 12:17:14	1	29	14	Sky 90s	http://www.skyradio.nl/player/skyradio-90s.pls
+2017-07-11 12:18:14	1	29	26	RGR Fm	http://stream.intronic.nl/rgrfm
+2017-07-11 12:19:14	1	29	16	3fm alt	http://icecast.omroep.nl/3fm-alternative-mp3
+2017-07-11 12:20:14	1	29	8	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-07-11 12:21:14	1	29	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-07-11 12:22:14	1	29	5	Radio 2	http://icecast.omroep.nl/radio2-bb-mp3
+2017-07-11 12:23:14	1	29	16	3fm alt	http://icecast.omroep.nl/3fm-alternative-mp3
+2017-07-11 12:24:14	1	29	23	538 hitzone	http://vip-icecast.538.lw.triple-it.nl/WEB11_MP3
+2017-07-11 12:25:14	1	29	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-07-11 12:26:14	1	29	1	Oldiesradio	http://stream.intronic.nl/rgrfm_oldiesradio
+2017-07-11 12:27:14	1	29	14	Sky 90s	http://www.skyradio.nl/player/skyradio-90s.pls
+2017-07-11 12:28:14	1	29	3	omroep brabant	http://live.icecast.kpnstreaming.nl/omroepbrabantlive-OmroepBrabantHq.m3u
+2017-07-11 12:29:08	1	29	28	Deepfm	http://stream.deep.radio/hd
+2017-07-12 08:32:13	6	13	4	Keizerstad FM	http://server-06.stream-server.nl:8800/listen.pls
+2017-07-12 08:35:58	6	13	3	omroep brabant	http://live.icecast.kpnstreaming.nl/omroepbrabantlive-OmroepBrabantHq.m3u
+2017-07-12 08:55:55	6	13	0	100%nl	http://stream.100p.nl/100pctnl.mp3
+2017-07-12 09:15:55	6	13	5	Radio 2	http://icecast.omroep.nl/radio2-bb-mp3
+2017-07-12 09:35:55	6	13	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-07-12 09:55:55	6	13	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-07-12 10:15:55	1	30	15	Studio brussel	http://mp3.streampower.be/stubru-high.mp3
+2017-07-12 10:35:55	1	30	21	veronica top 1000	http://18943.live.streamtheworld.com:80/SRGSTR10_SC

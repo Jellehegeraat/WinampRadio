@@ -1,4 +1,4 @@
-module.exports = function Webbrowser(logfile, station, winamp) {
+module.exports = function Webbrowser(logfile, station, timer, winamp) {
 	var _this = this;
 	
 	var _fs = require('fs'),
@@ -7,8 +7,8 @@ module.exports = function Webbrowser(logfile, station, winamp) {
 	
 	var _logfile = logfile,
 		_station = station,
-		_winamp = winamp;
-
+		_winamp = winamp,
+		_timer = timer;
 		
     this.start = function() {
 		
@@ -31,7 +31,7 @@ module.exports = function Webbrowser(logfile, station, winamp) {
 		}
 		if(url == '/time-out')
 		{
-			doTimeout();
+			dopauseMusic();
 			url = '/index.html';
 		}
 		if (url == '/vol-down')
@@ -92,8 +92,8 @@ module.exports = function Webbrowser(logfile, station, winamp) {
 		_winamp.volumeUp();
 	}
 
-	function doTimeout() {
-		_winamp.Timeout();
+	function dopauseMusic() {
+		_timer.pauseMusic();
 	}
 	
 	function doVolumeDown() {

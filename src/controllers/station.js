@@ -58,15 +58,15 @@ module.exports = function StationController(logfile, winamp) {
 		_last = 29;
 		//als het woensdag is, last = 30
 		if (_moment().format("e") == "3") {							
-			_last = "30";
+			_last = 30;
 		}
 		
 		//als het voor 10 uur is start = 6, last = 13
 		if (parseInt(_moment().format("H")) < 10) {
-			_start = "6";
-			_last = "13";
+			_start = 6;
+			_last = 13;
 		}
-		
+	
 		//randomizer
 		_random = Math.floor(_.random(_start,_last));
 		//als het vrijdag is en random is 21 -> 24
@@ -83,7 +83,7 @@ module.exports = function StationController(logfile, winamp) {
 					_random = 18
 				}
 		}
-		
+
 		return _random;
 	}
 

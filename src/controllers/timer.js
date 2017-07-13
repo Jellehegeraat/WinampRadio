@@ -37,19 +37,17 @@ module.exports = function Timer(logfile, station, winamp, config) {
 			}
 			
 			_paused = true;
-
-/*			
-			setInterval (
+	
+			setInterval (volUpInterval, _timeoutRestoreStepSize
+				
+			)
+			
+			function volUpInterval(){
 				if (volUp == false) {
 					stopinterval
 				}
-				, _timeoutRestoreStepSize
-				
-			)
-*/
-
-
-			
+			}
+		
 			function volUp() {
 				volume = _winamp.getVolume();
 				if (_volRestore > (_volume - 5)) {
@@ -61,7 +59,6 @@ module.exports = function Timer(logfile, station, winamp, config) {
 				}
 			}
 	};
-	
-   return this;
+	return this;
 };
 

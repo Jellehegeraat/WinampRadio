@@ -12,6 +12,8 @@ button {
     outline: none;
 }
 
+a.button {
+}
 select {
   text-align: center;
   text-align-last: center;
@@ -56,7 +58,7 @@ h1 {
     color: black;
     border: 2px solid #4CAF50; /* Green */
     outline: none;
-	min-width: 600px;
+	min-width: 30vh;
 }
 
 .overlay {

@@ -23,6 +23,7 @@
     "underscore.number": "^0.1.1",
     "underscore.string": "^3.3.4",
 	"config-js": "^1.1.9",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+	"node-windows": "^0.1.14"
   }
 }

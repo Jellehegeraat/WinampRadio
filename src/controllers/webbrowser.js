@@ -51,11 +51,11 @@ module.exports = function Webbrowser(logfile, station, timer, winamp) {
 			url = '/index.html';
 		}
 		
-		_fs.stat('html' + url, function(err, stat) {
+		_fs.stat(__dirname + '/../html' + url, function(err, stat) {
 			if(err) {
 				console.log('File bestaat niet: ' + url);
 			} else {
-				returnFile(response, 'html' + url);
+				returnFile(response, __dirname + '/../html' + url);
 			}
 		});
 	
@@ -65,7 +65,7 @@ module.exports = function Webbrowser(logfile, station, timer, winamp) {
 		_fs.readFile(url, function(err, data){
 			if(err){
 				response.statusCode = 500;
-				response.end(`Error getting the file: ${err}.`);
+				response.end('Error getting the file (' + url + '): ' + err);
 			} else {
 				const ext = _path.parse(url).ext;
 				response.statusCode = 200;

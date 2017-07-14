@@ -47,6 +47,7 @@ module.exports = function Winamp(logfile, config) {
 
 	function setCommand (command) {
 		var cmd = _winampLocation + ' ' + command;
+		console.log(cmd);
 		_exec(cmd);
 	}
     return this;

@@ -42,3 +42,14 @@
 2017-07-14 09:01:49	6	13	12	538	http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
 2017-07-14 09:06:00	6	13	18	grandprix	http://grandprixradio2.live-streams.nl:80/live.m3u
 2017-07-14 09:06:29	6	13	8	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-07-14 10:13:19	1	29	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-07-14 10:13:39	1	29	12	538	http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
+2017-07-14 10:13:47	1	29	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-07-14 10:13:49	1	29	15	Studio brussel	http://mp3.streampower.be/stubru-high.mp3
+2017-07-14 10:13:51	1	29	24	Slam	http://stream.slam.nl/slam
+2017-07-14 10:14:33	1	29	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-07-14 10:16:05	1	29	16	3fm alt	http://icecast.omroep.nl/3fm-alternative-mp3
+2017-07-14 10:17:12	1	29	17	Skyradio	http://provisioning.streamtheworld.com/pls/skyradio.pls
+2017-07-14 10:17:49	1	29	15	Studio brussel	http://mp3.streampower.be/stubru-high.mp3
+2017-07-14 10:17:52	1	29	24	Slam	http://stream.slam.nl/slam
+2017-07-14 10:17:59	1	29	17	Skyradio	http://provisioning.streamtheworld.com/pls/skyradio.pls

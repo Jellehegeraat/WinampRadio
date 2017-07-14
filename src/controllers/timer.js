@@ -1,63 +1,71 @@
 module.exports = function Timer(logfile, station, winamp, config) {
 	var _this = this;
 	
-		
 	var _logfile = logfile,
 		_station = station,
 		_winamp = winamp,
 		_timeout = config.get('player.newStationTimeoutMinutes'),
 		_timeoutRestore = config.get('player.restoreTimeoutMinutes'),
-		_timeoutRestoreStepSize = 1000,
-		_volRestore = 0;
+		_timeoutRestoreStepSize = 2000,
+		_volRestore = 0,
+		_volRestoreStep = 1,
+		_resetloop = null,
+		_volume = 0;
 		_paused = false;
 		
 		
     this.start = function() {
 		_station.playNextStation();
+		_this.readVolume();
 		setInterval(function () {
 			_station.playNextStation();
 		}, _timeout * 60000);
 		
 	};
 	
+	this.readVolume = function()
+	{
+		_volume = _winamp.getVolume()
+		console.log('vol: ' + _volume);
+	};
+	
 	this.pauseMusic = function() {
+		console.log('pauseMusic');
 			if (_paused == true) {
-				return;
+				clearInterval(_resetloop);
 			}
 			_paused = true;
 			_volRestore = _winamp.getVolume();
 			_winamp.setVolume(0);
-			
-			setTimeout(restoreMusic(10), _timeoutRestore * 60000 );
+			setTimeout(function(){_this.restoreMusic();}, _timeoutRestore * 60000 );
 	};
 	
-	this.restoreMusic = function(steps) {
+	this.volUpInterval = function() {
+		console.log('volUpInterval: ' + _winamp.getVolume() + ' >= ' + _volRestore);
+		if (_winamp.getVolume() >= _volRestore)
+		{
+			clearInterval(_resetloop);
+			_paused = false;
+		}
+		else
+		{
+			_this.volUp();
+		}
+	};
+	
+	this.volUp = function() {
+		console.log('volUp: += ' + _volRestoreStep);
+		_this.readVolume();
+		var newvol = _volume + _volRestoreStep;
+		if(newvol > _volRestore) newvol = _volRestore;
+		_winamp.setVolume(newvol);
+	}
+	
+	this.restoreMusic = function() {
 			if (_paused == false) {
 				return;
 			}
-			
-			_paused = true;
-	
-			setInterval (volUpInterval, _timeoutRestoreStepSize
-				
-			)
-			
-			function volUpInterval(){
-				if (volUp == false) {
-					stopinterval
-				}
-			}
-		
-			function volUp() {
-				volume = _winamp.getVolume();
-				if (_volRestore > (_volume - 5)) {
-					_winamp.setVolume(_volume + 5);
-					return true;
-				} else {
-					_winamp.setVolume(_volRestore);
-					return false;
-				}
-			}
+			_resetloop = setInterval (_this.volUpInterval, _timeoutRestoreStepSize);
 	};
 	return this;
 };

@@ -40,3 +40,5 @@
 2017-07-14 08:35:04	6	13	18	grandprix	http://grandprixradio2.live-streams.nl:80/live.m3u
 2017-07-14 08:53:53	6	13	12	538	http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
 2017-07-14 09:01:49	6	13	12	538	http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
+2017-07-14 09:06:00	6	13	18	grandprix	http://grandprixradio2.live-streams.nl:80/live.m3u
+2017-07-14 09:06:29	6	13	8	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls

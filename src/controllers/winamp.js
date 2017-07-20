@@ -18,7 +18,6 @@ module.exports = function Winamp(logfile, config) {
 	};
 
     this.setVolume = function(volume) {
-		// Hier testen of volume geldig getal is!!
 		_volume = volume;
 		setCommand ("/VOL="+volume);
 	};
@@ -43,11 +42,8 @@ module.exports = function Winamp(logfile, config) {
 		setCommand ("/VOL=" + _volume);
 	};
 	
-
-
 	function setCommand (command) {
 		var cmd = _winampLocation + ' ' + command;
-		console.log(cmd);
 		_exec(cmd);
 	}
     return this;

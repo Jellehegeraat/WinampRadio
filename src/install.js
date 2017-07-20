@@ -11,7 +11,7 @@ var svc = new Service({
 // process is available as a service.
 
 svc.on('install',function(){
-  svc.start();
+	svc.start();
 });
 
 //svc.uninstall()

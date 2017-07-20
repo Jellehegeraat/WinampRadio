@@ -26,7 +26,6 @@ module.exports = function Timer(logfile, station, winamp, config) {
 	this.readVolume = function()
 	{
 		_volume = _winamp.getVolume()
-		console.log('vol: ' + _volume);
 	};
 	
 	this.pauseMusic = function() {

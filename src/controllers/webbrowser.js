@@ -18,27 +18,28 @@ module.exports = function Webbrowser(logfile, station, timer, winamp) {
 	
 	function parseUrl(request, response) {
 		var url = request.url;
+		var template = "index.tpl";
+		var data = {};
 		
-		if(url == '/next-track')
+		if(url == '/ajax?next')
 		{
-			doNextStation();
-			url = '/index.html';
+			_station.playNextStation();
+			url = '/success.html';
 		} 
-		if(url == '/vol-up')
+		if(url == '/ajax?up')
 		{
-			doVolumeUp();
-			url = '/index.html';
+			_winamp.volumeUp();
+			url = '/success.html';
 		}
-		if(url == '/time-out')
+		if(url == '/ajax?time-out')
 		{
-			dopauseMusic();
-			url = '/index.html';
+			_timer.pauseMusic();
+			url = '/success.html';
 		}
-		if (url == '/vol-down')
+		if (url == '/ajax?down')
 		{
-			doVolumeDown();
-			url = '/index.html';
-			
+			_winamp.volumeDown();
+			url = '/success.html';
 		}
 		if (url == '/')
 		{
@@ -62,7 +63,7 @@ module.exports = function Webbrowser(logfile, station, timer, winamp) {
 	}
 
 	function returnFile(response, url) {
-		_fs.readFile(url, function(err, data){
+		_fs.readFile(url, function(err, template){
 			if(err){
 				response.statusCode = 500;
 				response.end('Error getting the file (' + url + '): ' + err);
@@ -71,33 +72,18 @@ module.exports = function Webbrowser(logfile, station, timer, winamp) {
 				response.statusCode = 200;
 				response.setHeader('Content-type', mimeType[ext] || 'text/plain' );
 				
-				response.end(parseStaticPage(data));
+				response.end(parseStaticPage(template));
 			}
 		});
 	}
 
-	function parseStaticPage(data) {
-		data = String(data).replace("<!--stationlistOptions-->", _station.stationListHtmlOptions());
-		return data;
+	function parseStaticPage(template) {
+		page = String(template).replace("<!--stationlistOptions-->", _station.stationListHtmlOptions());
+		return page;
 	}
 	
 	function nextChosenStation(stationId) {
 		_station.playNextStation(stationId);		
-	}
-	function doNextStation() {
-		_station.playNextStation();
-	}
-
-	function doVolumeUp() {
-		_winamp.volumeUp();
-	}
-
-	function dopauseMusic() {
-		_timer.pauseMusic();
-	}
-	
-	function doVolumeDown() {
-		_winamp.volumeDown();
 	}
 
 	const mimeType = {

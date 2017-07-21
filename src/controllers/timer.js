@@ -29,7 +29,6 @@ module.exports = function Timer(logfile, station, winamp, config) {
 	};
 	
 	this.pauseMusic = function() {
-		console.log('pauseMusic');
 			if (_paused == true) {
 				clearInterval(_resetloop);
 			}
@@ -40,7 +39,6 @@ module.exports = function Timer(logfile, station, winamp, config) {
 	};
 	
 	this.volUpInterval = function() {
-		console.log('volUpInterval: ' + _winamp.getVolume() + ' >= ' + _volRestore);
 		if (_winamp.getVolume() >= _volRestore)
 		{
 			clearInterval(_resetloop);
@@ -53,7 +51,6 @@ module.exports = function Timer(logfile, station, winamp, config) {
 	};
 	
 	this.volUp = function() {
-		console.log('volUp: += ' + _volRestoreStep);
 		_this.readVolume();
 		var newvol = _volume + _volRestoreStep;
 		if(newvol > _volRestore) newvol = _volRestore;

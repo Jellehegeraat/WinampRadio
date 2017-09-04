@@ -1,0 +1,29 @@
+2017-08-30 14:40:33	1	30	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-08-30 14:40:50	1	30	10	omroep brabant	http://live.icecast.kpnstreaming.nl/omroepbrabantlive-OmroepBrabantHq.m3u
+2017-08-30 14:40:52	1	30	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-08-30 14:40:54	1	30	23	538 hitzone	http://vip-icecast.538.lw.triple-it.nl/WEB11_MP3
+2017-08-30 14:41:11	1	30	21	veronica top 1000	http://18943.live.streamtheworld.com:80/SRGSTR10_SC
+2017-08-30 14:43:59	1	30	21	veronica top 1000	http://18943.live.streamtheworld.com:80/SRGSTR10_SC
+2017-08-30 14:44:04	1	30	21	veronica top 1000	http://18943.live.streamtheworld.com:80/SRGSTR10_SC
+2017-08-30 14:44:06	1	30	21	omroep brabant	http://live.icecast.kpnstreaming.nl/omroepbrabantlive-OmroepBrabantHq.m3u
+2017-08-30 14:44:09	1	30	5	Radio 2	http://icecast.omroep.nl/radio2-bb-mp3
+2017-08-30 14:44:11	1	30	5	Radio 2	http://icecast.omroep.nl/radio2-bb-mp3
+2017-08-30 16:40:33	1	30	3	omroep brabant	http://live.icecast.kpnstreaming.nl/omroepbrabantlive-OmroepBrabantHq.m3u
+2017-09-01 08:38:50	6	13	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-01 09:38:06	6	13	12	538	http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
+2017-09-01 09:38:14	6	13	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-01 09:38:20	6	13	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-01 09:38:27	6	13	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-01 09:38:31	6	13	12	538	http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
+2017-09-01 09:38:35	6	13	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-01 09:38:44	6	13	7	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-01 09:38:51	6	13	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-01 09:38:59	6	13	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-01 09:39:06	6	13	8	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-01 09:40:05	6	13	8	538	http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
+2017-09-01 09:40:09	6	13	8	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-01 09:40:12	6	13	8	Oldiesradio	http://stream.intronic.nl/rgrfm_oldiesradio
+2017-09-01 11:38:06	1	29	12	538	http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
+2017-09-01 13:38:06	1	29	24	Slam	http://stream.slam.nl/slam
+2017-09-01 15:38:06	1	29	18	grandprix	http://grandprixradio2.live-streams.nl:80/live.m3u
+2017-09-04 08:38:40	6	13	8	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls

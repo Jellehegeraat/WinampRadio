@@ -34,7 +34,7 @@ module.exports = function Webbrowser(logfile, station, timer, winamp) {
 		if(url == '/ajax?time-out')
 		{
 			_timer.pauseMusic();
-			url = '/success.html';
+			url = '/success.html'; 
 		}
 		if (url == '/ajax?down')
 		{

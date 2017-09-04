@@ -107,7 +107,7 @@ module.exports = function BroadcastListController() {
 		{
 			stationName: "Studio brussel",
 			url: "http://mp3.streampower.be/stubru-high.mp3"
-		},
+		}, 
 		{
 			stationName: "3fm alt",
 			url: "http://icecast.omroep.nl/3fm-alternative-mp3"

@@ -34,6 +34,11 @@ $(document).ready(function(){
 			// Visueel maken dat volgende track is geselecteerd.
 		});
    });
+   $("#stations").change(function(){
+		$.get("goto?id="+$('#stations').val(), function(data, success){
+			// Visueel maken dat volgende track is geselecteerd.
+		});
+   });
 
    
 });

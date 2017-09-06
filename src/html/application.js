@@ -44,7 +44,6 @@ $(document).ready(function(){
    $("#volslider").change(function(){
 	   var vol = (($(this).val()));
 		$.get("vol?set="+vol, function(data, success){
-			
 		});
 	   
 	   

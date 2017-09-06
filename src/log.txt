@@ -259,3 +259,4 @@
 2017-09-06 16:05:34	firstTimer	1	30	19	fresh fm	http://www.fresh.fm/media/audio/FreshFM.asx
 2017-09-06 16:06:04	firstTimer	1	30	18	grandprix	http://grandprixradio2.live-streams.nl:80/live.m3u
 2017-09-06 16:06:22	firstTimer	1	30	14	Sky 90s	http://www.skyradio.nl/player/skyradio-90s.pls
+2017-09-06 16:07:48	firstTimer	1	30	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3

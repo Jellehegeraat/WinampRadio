@@ -51,7 +51,6 @@ module.exports = function Webbrowser(logfile, station, timer, winamp) {
 		if (String(url).substr(0,9) == "/vol?set=")
 		{
 			var volumechange = url.split('=');
-			
 			var newvol = parseInt(volumechange[1]);
 			_winamp.volumeChange(newvol);
 			url = '/success.json';

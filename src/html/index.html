@@ -9,22 +9,23 @@
 </head>
 <body>
    <div id="buttons" align="center">
-		<button id="btnnext">Next Random</button>
-		<button id="btndown">Vol down</button>
-		<button id="btnup">Vol up</button>
-		<button id="btntime-out">Time Out</button>
+		<button class="practifm" id="btnnext">Next Random</button>
+		<button class="practifm" id="btntime-out">Time Out</button>
+    </div>
+	<h3 align="center">Volume</h3>
+   <div id="volume" align="center">
+		<button class="volslider" id="btndown">-</button>
+		<input  class="volslider" type="range" name="volslider" id="volslider" min="0" max="100" value="80">
+		<button class="volslider" id="btnup">+</button>
     </div>
 	<h3 align="center">Liever zelf een radio zender uitkiezen?</h3>
 	<div id="select-style" align="center">
-		<select id="stations">
-			<!--stationlistOptions-->
+		<select class="practifm" id="stations">
+			{{#stationList}}
+			<option url="{{{url}}}"{{#selected}} selected{{/selected}}>{{stationName}}</option>
+			{{/stationList}};
 		</select>
 	</div>
-<!--
-	<div class="box">
-		<a id="btnopenpopup" class="button" href="javascript:;">Settings</a>
-	</div>
-	<div id="popup1" class="overlay"></div>
--->
+
 </body>
 </html>

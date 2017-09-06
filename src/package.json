@@ -1,29 +1,31 @@
 {
   "name": "winamp-radio",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ashleygwilliams/my_package.git"
+    "url": "https://github.com//my_package.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ashleygwilliams/my_package/issues"
+    "url": "https://github.com//my_package/issues"
   },
   "homepage": "https://practicom.net",
   "dependencies": {
+    "config-js": "^1.1.9",
     "moment": "^2.18.1",
+	"mustache": "^2.3.0",
+    "node-windows": "^0.1.14",
+    "path": "^0.12.7",
     "underscore": "^1.8.3",
     "underscore.number": "^0.1.1",
-    "underscore.string": "^3.3.4",
-	"config-js": "^1.1.9",
-    "path": "^0.12.7",
-	"node-windows": "^0.1.14"
+    "underscore.string": "^3.3.4"
+	
   }
-} 
+}

@@ -33,7 +33,10 @@ module.exports = function Winamp(logfile, config) {
 		}
 		setCommand ("/VOL=" + _volume);
 	};
-	
+	this.volumeChange = function(newvol){
+		_volume = newvol;
+		setCommand ("/VOL=" + _volume);
+	}
     this.volumeDown = function() {
 		_volume = _volume - 5;
 		if (_volume < 0) {

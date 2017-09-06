@@ -15,10 +15,10 @@ module.exports = function Timer(logfile, station, winamp, config) {
 		
 		
     this.start = function() {
-		_station.playNextStation();
+		_station.playNextStation('firstTimer');
 		_this.readVolume();
 		setInterval(function () {
-			_station.playNextStation();
+			_station.playNextStation('intervalTimer');
 		}, _timeout * 60000);
 		
 	};

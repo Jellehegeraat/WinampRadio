@@ -22,16 +22,31 @@ module.exports = function BroadcastListController() {
         //}
 		return _broadcastList[id];
     };
+    /**
+     * Gets a single broadcast station by Id.
+     * @param id
+     */
+    this.getByName = function(name) {
+		var returnval = null;
+		_.each(_broadcastList, function (station, id)
+		{
+			if(String(station.stationName).trim() == String(name).trim())
+			{
+				returnval = station;
+			}
+		});
+		return returnval;
+    };
 	
     /**
      * Gets a single broadcast station by Id.
      */
-	this.stationListHtmlOptions = function (selected){
-		var result = "";
-		var previousUrl = "";
+	this.stationList = function (selected){
+		var result = [],
+		    previousUrl = '';
 		_.each(_broadcastList, function (item, id){
-			optionSelected = (selected == item.url) ? " selected" : "";
-			if (previousUrl != item.url) result += '<option value="' + id + '"' + optionSelected + '>' + item.stationName + '</option>';
+			item.selected = (selected == item.url);
+			if (previousUrl != item.url) result.push(item);
 			previousUrl = item.url;
 		});
 		return result;

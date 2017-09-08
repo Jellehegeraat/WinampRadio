@@ -48,6 +48,15 @@ module.exports = function Webbrowser(logfile, station, timer, winamp) {
 			_winamp.volumeDown();
 			url = '/success.json';
 		}
+		if (url == '/data.json')
+		{
+			data = {
+				payload: JSON.stringify({
+						volume: _winamp.getVolume(),
+						playing: _station.stationPlaying()
+					})
+			};
+		}
 		if (String(url).substr(0,9) == "/vol?set=")
 		{
 			var volumechange = url.split('=');
@@ -60,16 +69,16 @@ module.exports = function Webbrowser(logfile, station, timer, winamp) {
 		if (url == '/')
 		{
 			url = '/index.html';
-			data = {stationList: _station.stationList()};
+			data = {stationList: _station.stationList(), volume: _winamp.getVolume()};
+			
 		}
 		
 		//manual station select
 		if (String(url).substr(0,9) == "/goto?id=")
 		{
 			var arr = url.split('=');
-			var station = getStation(decodeURI(arr[1]));
-			//var stationId = parseInt(arr[1]);
-			playStation(request.connection.remoteAddress,station);
+			var station = _station.findStation(decodeURI(arr[1]));
+			playStation(request.connection.remoteAddress, station);
 			url = '/index.html';
 		}
 		
@@ -112,20 +121,16 @@ module.exports = function Webbrowser(logfile, station, timer, winamp) {
 		response.write(JSON.stringify(data)); 
 		response.end();
 	}
+	
 	function playStationById(srcIp, stationId) {
 		return _station.playNextStation(srcIp, stationId);
 	}
+	
 	function playStation(srcIp, station) {
 		return _station.playStation(srcIp, station);
 	}
 	
-	
-	
-	function getStation (stationName) {
-		//console.log(_station.findStation(stationName));
-		return _station.findStation(stationName);
-	}
-	
+		
 
 	const mimeType = {
 		'.ico': 'image/x-icon',

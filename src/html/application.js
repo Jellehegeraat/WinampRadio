@@ -50,4 +50,12 @@ $(document).ready(function(){
    });
 
    
+   setInterval(function(){
+		$.get("data.json", function(data, success){
+			if ($("#volslider").val() != data.volume) $("#volslider").val(data.volume);
+			if ($('#stations').val() != data.playing) $('#stations').val(data.playing);
+		});
+   }, 500);
+   
+   
 });

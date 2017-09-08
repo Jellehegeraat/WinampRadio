@@ -6,6 +6,8 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="application.js"></script>
+
+
 </head>
 <body>
    <div id="buttons" align="center">
@@ -15,17 +17,19 @@
 	<h3 align="center">Volume</h3>
    <div id="volume" align="center">
 		<button class="volslider" id="btndown">-</button>
-		<input  class="volslider" type="range" name="volslider" id="volslider" min="0" max="100" value="80">
+		<input  class="volslider" type="range" name="volslider" id="volslider" min="0" max="100" value="{{volume}}">
 		<button class="volslider" id="btnup">+</button>
     </div>
 	<h3 align="center">Liever zelf een radio zender uitkiezen?</h3>
 	<div id="select-style" align="center">
 		<select class="practifm" id="stations">
 			{{#stationList}}
-			<option url="{{{url}}}"{{#selected}} selected{{/selected}}>{{stationName}}</option>
+			<option value="{{{url}}}"{{#selected}} selected{{/selected}}>{{stationName}}</option>
 			{{/stationList}};
 		</select>
 	</div>
-
 </body>
 </html>
+
+
+

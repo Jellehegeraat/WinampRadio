@@ -38,11 +38,12 @@ module.exports = function StationController(logfile, winamp) {
 	
 		_winamp.playUrl(station.url);
 		_nowPlayingUrl = station.url;
+		
 		return station;
 	};
 	
 	/**
-     * Play next random station in agenda.
+     * Play selected station
      */
     this.findStation = function(stationName) {
 		var station = _broadcastlist.getByName(stationName);
@@ -60,10 +61,17 @@ module.exports = function StationController(logfile, winamp) {
 	};
 
 	/**
-     * Gets last calculation information.
+     * Gets all stations and current playing
      */
     this.stationList = function() {
 		return _broadcastlist.stationList(_nowPlayingUrl);
+	};
+	
+	/**
+     * Gets current playing
+     */
+    this.stationPlaying = function() {
+		return _nowPlayingUrl;
 	};
 	
 	

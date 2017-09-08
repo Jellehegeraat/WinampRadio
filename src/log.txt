@@ -260,3 +260,57 @@
 2017-09-06 16:06:04	firstTimer	1	30	18	grandprix	http://grandprixradio2.live-streams.nl:80/live.m3u
 2017-09-06 16:06:22	firstTimer	1	30	14	Sky 90s	http://www.skyradio.nl/player/skyradio-90s.pls
 2017-09-06 16:07:48	firstTimer	1	30	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-06 16:15:20	firstTimer	1	30	29	538 ibiza	http://vip-icecast.538.lw.triple-it.nl/WEB19_MP3
+2017-09-06 16:49:48	firstTimer	1	30	3	omroep brabant	http://live.icecast.kpnstreaming.nl/omroepbrabantlive-OmroepBrabantHq.m3u
+2017-09-08 08:35:39	firstTimer	6	13	7	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-08 08:37:16	firstTimer	6	13	9	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-08 09:01:40	firstTimer	6	13	12	538	http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
+2017-09-08 09:01:42	firstTimer	6	13	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-08 09:17:42	firstTimer	6	13	8	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-08 10:41:50	firstTimer	1	29	18	grandprix	http://grandprixradio2.live-streams.nl:80/live.m3u
+2017-09-08 10:42:27	firstTimer	1	29	9	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-08 10:44:01	firstTimer	1	29	20	keizerstad 80's	http://server-06.stream-server.nl:8800/;stream.mp3
+2017-09-08 10:44:22	firstTimer	1	29	9	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-08 10:44:48	firstTimer	1	29	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-08 10:47:02	firstTimer	1	29	24	Slam	http://stream.slam.nl/slam
+2017-09-08 10:47:37	firstTimer	1	29	16	3fm alt	http://icecast.omroep.nl/3fm-alternative-mp3
+2017-09-08 10:49:20	firstTimer	1	29	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-08 10:50:52	firstTimer	1	29	16	3fm alt	http://icecast.omroep.nl/3fm-alternative-mp3
+2017-09-08 10:53:15	firstTimer	1	29	18	grandprix	http://grandprixradio2.live-streams.nl:80/live.m3u
+2017-09-08 10:56:24	firstTimer	1	29	18	grandprix	http://grandprixradio2.live-streams.nl:80/live.m3u
+2017-09-08 10:56:49	firstTimer	1	29	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-08 10:57:07	firstTimer	1	29	14	Sky 90s	http://www.skyradio.nl/player/skyradio-90s.pls
+2017-09-08 10:57:40	firstTimer	1	29	20	keizerstad 80's	http://server-06.stream-server.nl:8800/;stream.mp3
+2017-09-08 10:59:23	firstTimer	1	29	13	538	http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
+2017-09-08 11:02:02	firstTimer	1	29	12	538	http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
+2017-09-08 11:02:39	firstTimer	1	29	5	Radio 2	http://icecast.omroep.nl/radio2-bb-mp3
+2017-09-08 11:24:28	firstTimer	1	29	16	3fm alt	http://icecast.omroep.nl/3fm-alternative-mp3
+2017-09-08 11:24:29	::1	1	29	24	Slam	http://stream.slam.nl/slam
+2017-09-08 11:26:43	firstTimer	1	29	24	Slam	http://stream.slam.nl/slam
+2017-09-08 11:30:32	firstTimer	1	29	9	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-08 11:43:18	firstTimer	1	29	17	Skyradio	http://provisioning.streamtheworld.com/pls/skyradio.pls
+2017-09-08 11:44:09	firstTimer	1	29	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-08 11:47:29	firstTimer	1	29	9	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-08 11:48:42	firstTimer	1	29	16	3fm alt	http://icecast.omroep.nl/3fm-alternative-mp3
+2017-09-08 11:50:49	firstTimer	1	29	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-08 11:51:15	firstTimer	1	29	18	grandprix	http://grandprixradio2.live-streams.nl:80/live.m3u
+2017-09-08 11:51:27	firstTimer	1	29	9	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-08 11:56:52	firstTimer	1	29	7	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-08 11:58:28	firstTimer	1	29	14	Sky 90s	http://www.skyradio.nl/player/skyradio-90s.pls
+2017-09-08 11:59:38	firstTimer	1	29	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-08 12:01:16	firstTimer	1	29	24	Slam	http://stream.slam.nl/slam
+2017-09-08 12:02:21	::1	1	29	18	grandprix	http://grandprixradio2.live-streams.nl:80/live.m3u
+2017-09-08 12:09:52	firstTimer	1	29	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-08 12:11:18	firstTimer	1	29	4	Keizerstad FM	http://server-06.stream-server.nl:8800/listen.pls
+2017-09-08 12:11:40	firstTimer	1	29	3	omroep brabant	http://live.icecast.kpnstreaming.nl/omroepbrabantlive-OmroepBrabantHq.m3u
+2017-09-08 14:04:57	firstTimer	1	29	24	Slam	http://stream.slam.nl/slam
+2017-09-08 14:19:56	firstTimer	1	29	24	Slam	http://stream.slam.nl/slam
+2017-09-08 14:35:29	firstTimer	1	29	4	Keizerstad FM	http://server-06.stream-server.nl:8800/listen.pls
+2017-09-08 14:38:29	firstTimer	1	29	17	Skyradio	http://provisioning.streamtheworld.com/pls/skyradio.pls
+2017-09-08 14:38:59	firstTimer	1	29	24	Slam	http://stream.slam.nl/slam
+2017-09-08 14:47:04	firstTimer	1	29	24	Slam	http://stream.slam.nl/slam
+2017-09-08 14:49:38	firstTimer	1	29	24	Slam	http://stream.slam.nl/slam
+2017-09-08 14:51:24	firstTimer	1	29	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-08 14:53:09	firstTimer	1	29	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-08 14:53:48	firstTimer	1	29	24	Slam	http://stream.slam.nl/slam
+2017-09-08 14:58:08	firstTimer	1	29	14	Sky 90s	http://www.skyradio.nl/player/skyradio-90s.pls

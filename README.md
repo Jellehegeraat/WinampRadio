@@ -48,6 +48,19 @@ These instructions will get you a copy of the project up and running on your loc
 ```
 * If everything is correct it will start Winamp with an random Radiostation.
 
+
+## installing WinampRadio as a service..
+
+* Open up node.js cmd
+
+* Navigate to the src map
+
+* Use the next code
+```
+	node install.js
+```
+* When u restart your computer it will automatically start the Radio.
+
 ## Running the tests
 
 * This only works if u Installed everything properly

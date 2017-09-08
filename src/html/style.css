@@ -25,10 +25,8 @@ button.volslider {
 input.volslider {
     background-color: white;
     color: black;
-    border: 2px solid #4CAF50; /* Green */
     width: 250px;
     height: 50px;
-    outline: none;
 	top:15px;
 	position:relative;
 }

@@ -10,7 +10,9 @@ module.exports = function Timer(logfile, station, winamp, config) {
 		_volRestore = 0,
 		_volRestoreStep = 1,
 		_resetloop = null,
-		_volume = 0;
+		_volume = 0,
+		_width = 0,
+		_pausedOn = new Date() - 120000,
 		_paused = false;
 		
 		
@@ -29,6 +31,7 @@ module.exports = function Timer(logfile, station, winamp, config) {
 	};
 	
 	this.pauseMusic = function() {
+			_pausedOn = new Date();
 			if (_paused == true) {
 				clearInterval(_resetloop);
 			}
@@ -37,6 +40,15 @@ module.exports = function Timer(logfile, station, winamp, config) {
 			_winamp.setVolume(0);
 			setTimeout(function(){_this.restoreMusic();}, _timeoutRestore * 60000 );
 	};
+
+	this.getPercentage = function(){
+		if (_paused == false) return 0;
+		var now = new Date();
+		var $result = parseInt(100 - ((now - _pausedOn) / (_timeoutRestore * 600)));
+		if ($result > 100) $result = 100;
+		if ($result < 0) $result = 0;
+		return $result;
+	}
 	
 	this.volUpInterval = function() {
 		if (_winamp.getVolume() >= _volRestore)

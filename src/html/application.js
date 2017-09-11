@@ -54,8 +54,14 @@ $(document).ready(function(){
 		$.get("data.json", function(data, success){
 			if ($("#volslider").val() != data.volume) $("#volslider").val(data.volume);
 			if ($('#stations').val() != data.playing) $('#stations').val(data.playing);
+			if (data.timeout > 0) {
+				$('#divprogress').show();
+				$('#divbar').css('width', String(data.timeout) + '%');
+			} else {
+				$('#divprogress').hide();
+			}
 		});
    }, 500);
-   
-   
+  
+
 });

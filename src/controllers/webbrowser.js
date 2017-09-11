@@ -53,7 +53,8 @@ module.exports = function Webbrowser(logfile, station, timer, winamp) {
 			data = {
 				payload: JSON.stringify({
 						volume: _winamp.getVolume(),
-						playing: _station.stationPlaying()
+						playing: _station.stationPlaying(),
+						timeout: _timer.getPercentage()
 					})
 			};
 		}

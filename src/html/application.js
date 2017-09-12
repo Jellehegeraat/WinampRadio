@@ -2,6 +2,14 @@
 
 $(document).ready(function(){
 
+   $("#btnopenpopup").click(function(){
+		
+		$.get("popup.html", function(data){
+			$("#popup1").html(data);
+			$("#popup1").show();
+		});
+		
+   });
 
    $("#btnnext").click(function(){
 		$.get("ajax?next", function(data, success){
@@ -38,13 +46,14 @@ $(document).ready(function(){
 		$.get("goto?id="+$('#stations').val(), function(data, success){
 		});
    });
-   
+
    $("#volslider").change(function(){
 	   var vol = (($(this).val()));
 		$.get("vol?set="+vol, function(data, success){
 		});
    });
 
+   
    setInterval(function(){
 		$.get("data.json", function(data, success){
 			if ($("#volslider").val() != data.volume) $("#volslider").val(data.volume);
@@ -54,7 +63,12 @@ $(document).ready(function(){
 				$('#divbar').css('width', String(data.timeout) + '%');
 			} else {
 				$('#divprogress').hide();
+			};
+			if (data.timeout == 0) {
+				$("#btntime-out").text(function(i, v){return v === 'Stop Time Out' ? 'Time Out' : 'Time Out'});
 			}
+			else {}
+			
 		});
    }, 500);
   

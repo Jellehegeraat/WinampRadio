@@ -42,13 +42,19 @@ module.exports = function Timer(logfile, station, winamp, config) {
 			_winamp.setVolume(0);
 			TimeOutMusic = setTimeout(function(){_this.restoreMusic();}, _timeoutRestore * 60000 );
 	};
-
 	
+	// if volume is changed during timeout everything stops. and the volume will stay the same
+	this.stopAll = function (newvol){
+		_volRestore = newvol;
+		_this.stopTimeOut();
+	}
+	
+	// button to stop the timeout and start vol restore
 	this.stopTimeOut = function() {
 				_this.restoreMusic();
 				_paused = false;
 				clearTimeout(TimeOutMusic);
-			};
+	};
 		  
 	
 	// Set timeout bar to 100 + count down to 0
@@ -73,7 +79,6 @@ module.exports = function Timer(logfile, station, winamp, config) {
 			_this.volUp();
 		}
 	};
-	
 	
 	// Read volume add 1 and return new volume
 	this.volUp = function() {

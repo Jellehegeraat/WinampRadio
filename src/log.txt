@@ -229,3 +229,17 @@
 2017-09-12 12:08:52	firstTimer	1	30	15	Sky 90s	http://www.skyradio.nl/player/skyradio-90s.pls
 2017-09-12 12:09:18	firstTimer	1	30	25	Slam	http://stream.slam.nl/slam
 2017-09-12 12:09:37	firstTimer	1	30	5	Radio 2	http://icecast.omroep.nl/radio2-bb-mp3
+2017-09-12 12:28:05	firstTimer	1	30	21	keizerstad 80's	http://server-06.stream-server.nl:8800/;stream.mp3
+2017-09-12 12:28:41	firstTimer	1	30	2	arrow classic	http://91.221.151.155:80/;?.mp3
+2017-09-12 12:31:20	firstTimer	1	30	22	veronica top 1000	http://18943.live.streamtheworld.com:80/SRGSTR10_SC
+2017-09-12 13:07:43	firstTimer	1	30	12	538	http://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR09.mp3
+2017-09-12 13:10:09	firstTimer	1	30	20	fresh fm	http://www.fresh.fm/media/audio/FreshFM.asx
+2017-09-12 13:10:54	firstTimer	1	30	13	538	http://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR09.mp3
+2017-09-12 13:11:33	firstTimer	1	30	1	Oldiesradio	http://stream.intronic.nl/rgrfm_oldiesradio
+2017-09-12 13:11:52	firstTimer	1	30	2	arrow classic	http://91.221.151.155:80/;?.mp3
+2017-09-12 13:12:30	firstTimer	1	30	5	Radio 2	http://icecast.omroep.nl/radio2-bb-mp3
+2017-09-12 13:13:25	firstTimer	1	30	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-12 13:14:15	firstTimer	1	30	5	Radio 2	http://icecast.omroep.nl/radio2-bb-mp3
+2017-09-12 13:14:32	firstTimer	1	30	5	Radio 2	http://icecast.omroep.nl/radio2-bb-mp3
+2017-09-12 13:14:54	firstTimer	1	30	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 13:16:32	firstTimer	1	30	18	Skyradio	http://provisioning.streamtheworld.com/pls/skyradio.pls

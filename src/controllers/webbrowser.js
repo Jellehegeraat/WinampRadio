@@ -69,6 +69,7 @@ module.exports = function Webbrowser(logfile, station, timer, winamp) {
 			var volumechange = url.split('=');
 			var newvol = parseInt(volumechange[1]);
 			_winamp.volumeChange(newvol);
+			_timer.stopAll(newvol);
 			url = '/success.json';
 		}
 		

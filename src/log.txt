@@ -121,3 +121,82 @@
 2017-09-11 15:26:10	firstTimer	1	29	26	RGR Fm	http://stream.intronic.nl/rgrfm
 2017-09-11 15:29:39	firstTimer	1	29	4	Keizerstad FM	http://server-06.stream-server.nl:8800/listen.pls
 2017-09-11 15:30:28	firstTimer	1	29	28	Deepfm	http://stream.deep.radio/hd
+2017-09-11 15:45:51	firstTimer	1	29	27	slam non stop	http://stream.radiocorp.nl/web10_mp3
+2017-09-11 15:46:44	firstTimer	1	29	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-11 15:52:33	firstTimer	1	30	1	Oldiesradio	http://stream.intronic.nl/rgrfm_oldiesradio
+2017-09-11 15:52:47	::ffff:127.0.0.1	1	30	14	Radio 10	http://playerservices.streamtheworld.com/api/livestream-redirect/RADIO10.mp3
+2017-09-11 15:52:48	::ffff:127.0.0.1	1	30	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-11 15:52:49	::ffff:127.0.0.1	1	30	18	Skyradio	http://provisioning.streamtheworld.com/pls/skyradio.pls
+2017-09-11 15:52:49	::1	1	30	17	3fm alt	http://icecast.omroep.nl/3fm-alternative-mp3
+2017-09-11 15:52:50	::1	1	30	13	538	http://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR09.mp3
+2017-09-11 15:52:51	::1	1	30	7	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-11 15:53:57	firstTimer	1	30	2	arrow classic	http://91.221.151.155:80/;?.mp3
+2017-09-12 08:50:55	firstTimer	6	13	8	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-12 09:11:31	firstTimer	6	13	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:14:55	firstTimer	6	13	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-12 09:15:24	firstTimer	6	13	12	538	http://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR09.mp3
+2017-09-12 09:17:24	firstTimer	6	13	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:17:41	firstTimer	6	13	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:17:51	firstTimer	6	13	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:18:19	firstTimer	6	13	9	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-12 09:18:41	firstTimer	6	13	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:19:20	firstTimer	6	13	12	538	http://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR09.mp3
+2017-09-12 09:22:37	firstTimer	6	13	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:22:41	firstTimer	6	13	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-12 09:24:07	firstTimer	6	13	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:24:21	firstTimer	6	13	8	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-12 09:24:50	firstTimer	6	13	7	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-12 09:25:04	firstTimer	6	13	8	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-12 09:25:20	firstTimer	6	13	9	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-12 09:26:17	firstTimer	6	13	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:26:38	firstTimer	6	13	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:28:25	firstTimer	6	13	8	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-12 09:28:26	::1	6	13	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:28:45	firstTimer	6	13	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:29:12	firstTimer	6	13	7	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-12 09:29:44	firstTimer	6	13	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-12 09:30:37	firstTimer	6	13	12	538	http://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR09.mp3
+2017-09-12 09:30:56	firstTimer	6	13	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:31:35	firstTimer	6	13	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-12 09:32:02	firstTimer	6	13	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:32:23	firstTimer	6	13	12	538	http://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR09.mp3
+2017-09-12 09:32:50	firstTimer	6	13	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:33:28	firstTimer	6	13	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:35:11	firstTimer	6	13	7	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-12 09:37:17	firstTimer	6	13	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:37:56	firstTimer	6	13	9	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-12 09:39:28	firstTimer	6	13	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-12 09:40:12	firstTimer	6	13	12	538	http://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR09.mp3
+2017-09-12 09:40:55	firstTimer	6	13	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:41:14	firstTimer	6	13	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:41:51	firstTimer	6	13	9	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-12 09:43:49	firstTimer	6	13	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:44:06	firstTimer	6	13	8	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-12 09:44:31	firstTimer	6	13	12	538	http://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR09.mp3
+2017-09-12 09:45:20	firstTimer	6	13	12	538	http://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR09.mp3
+2017-09-12 09:45:59	firstTimer	6	13	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-12 09:46:41	firstTimer	6	13	12	538	http://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR09.mp3
+2017-09-12 09:47:03	firstTimer	6	13	9	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-12 09:48:43	firstTimer	6	13	9	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-12 09:49:33	firstTimer	6	13	8	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-12 09:50:21	firstTimer	6	13	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:51:43	firstTimer	6	13	8	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-12 09:52:37	firstTimer	6	13	8	Veronica	http://playerservices.streamtheworld.com/pls/veronica.pls
+2017-09-12 09:53:16	firstTimer	6	13	7	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-12 09:54:23	firstTimer	6	13	7	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-12 09:55:03	firstTimer	6	13	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:55:35	firstTimer	6	13	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-12 09:57:03	firstTimer	6	13	10	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:57:29	firstTimer	6	13	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 09:58:20	firstTimer	6	13	7	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-12 09:59:25	firstTimer	6	13	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 10:00:05	firstTimer	1	30	11	3fm	http://icecast.omroep.nl:80/3fm-bb-mp3
+2017-09-12 10:00:30	firstTimer	1	30	18	Skyradio	http://provisioning.streamtheworld.com/pls/skyradio.pls
+2017-09-12 10:00:53	firstTimer	1	30	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-12 10:00:59	firstTimer	1	30	24	538 hitzone	http://vip-icecast.538.lw.triple-it.nl/WEB11_MP3
+2017-09-12 10:01:38	firstTimer	1	30	6	Qmusic	http://icecast-qmusic.cdp.triple-it.nl:80/Qmusic_nl_live_96.mp3
+2017-09-12 10:02:04	firstTimer	1	30	1	Oldiesradio	http://stream.intronic.nl/rgrfm_oldiesradio
+2017-09-12 11:17:58	firstTimer	1	30	3	omroep brabant	http://live.icecast.kpnstreaming.nl/omroepbrabantlive-OmroepBrabantHq.m3u
+2017-09-12 11:21:19	firstTimer	1	30	12	538	http://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR09.mp3
+2017-09-12 11:21:33	firstTimer	1	30	20	fresh fm	http://www.fresh.fm/media/audio/FreshFM.asx
+2017-09-12 11:22:03	firstTimer	1	30	23	funx	http://icecast.omroep.nl/funx-bb-mp3

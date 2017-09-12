@@ -2,14 +2,6 @@
 
 $(document).ready(function(){
 
-   $("#btnopenpopup").click(function(){
-		
-		$.get("popup.html", function(data){
-			$("#popup1").html(data);
-			$("#popup1").show();
-		});
-		
-   });
 
    $("#btnnext").click(function(){
 		$.get("ajax?next", function(data, success){
@@ -33,23 +25,26 @@ $(document).ready(function(){
    });
 
    $("#btntime-out").click(function(){
-		$.get("ajax?time-out", function(data, success){
-		});
+	   $(this).text(function(i, v){return v === 'Time Out' ? 'Stop Time Out' : 'Time Out'});
+	      
+	    if ($("#btntime-out").text() == 'Stop Time Out'){
+			$.get("ajax?time-out", function(data, success){});
+		} else{
+			$.get("ajax?stopTime-out", function(data, success){});
+		};
    });
    
    $("#stations").change(function(){
 		$.get("goto?id="+$('#stations').val(), function(data, success){
 		});
    });
+   
    $("#volslider").change(function(){
 	   var vol = (($(this).val()));
 		$.get("vol?set="+vol, function(data, success){
 		});
-	   
-	   
    });
 
-   
    setInterval(function(){
 		$.get("data.json", function(data, success){
 			if ($("#volslider").val() != data.volume) $("#volslider").val(data.volume);

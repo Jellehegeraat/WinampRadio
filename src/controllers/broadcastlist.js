@@ -107,12 +107,16 @@ module.exports = function BroadcastListController() {
 		},
 		{
 			stationName: "538",
-			url: "http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3"
+			url: "http://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR09.mp3"
 		},
 		{
 			stationName: "538",
-			url: "http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3"
+			url: "http://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR09.mp3"
 		},
+		{
+			stationName: "Radio 10",
+			url: "http://playerservices.streamtheworld.com/api/livestream-redirect/RADIO10.mp3"
+		}, 
 		{
 			stationName: "Sky 90s",
 			url: "http://www.skyradio.nl/player/skyradio-90s.pls"

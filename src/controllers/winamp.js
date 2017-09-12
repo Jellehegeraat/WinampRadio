@@ -5,7 +5,7 @@ module.exports = function Winamp(logfile, config) {
 	
 	var _logfile = logfile,
 		_child = null,
-		_volume = 80;
+		_volume = config.get('player.standardVolume'),
 		_winampLocation = config.get('player.winampLocation');
 	
     this.playUrl = function(url) {

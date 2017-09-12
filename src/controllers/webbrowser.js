@@ -37,6 +37,12 @@ module.exports = function Webbrowser(logfile, station, timer, winamp) {
 			url = '/success.json'; 
 		}
 		
+		if(url == '/ajax?stopTime-out')
+		{
+			_timer.stopTimeOut();
+			url = '/success.json'; 
+		}
+		
 		//volume functions
 		if(url == '/vol?up')
 		{
